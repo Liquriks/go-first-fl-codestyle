@@ -117,7 +117,7 @@ func main() {
 
 	var char_name string
 	fmt.Print("...назови себя: ")
-	fmt.Scanf("%s\n", &char_name)
+	fmt.Scanf("%s\n", char_name)
 
 	fmt.Printf("Здравствуй, %s\n", char_name)
 	fmt.Println("Сейчас твоя выносливость — 80, атака — 5 и защита — 10.")
